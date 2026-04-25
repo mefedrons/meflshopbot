@@ -13,7 +13,7 @@ def start(message):
 
     bot.send_message(
         message.chat.id,
-        "Добро пожаловать в mefl•shop 🔥\nБрендовая одежда в наличии.",
+        "Добро пожаловать в магазин одежды mefl•shop \nЗдесь можете приобрести только оригинальные вещи.",
         reply_markup=markup
     )
 
