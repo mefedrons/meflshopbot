@@ -36,4 +36,5 @@ def msg(message):
     else:
         bot.send_message(message.chat.id, "Нажми кнопку ниже.")
 
+bot.remove_webhook()
 bot.infinity_polling()
